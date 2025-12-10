@@ -5,11 +5,9 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0px, 30vh));
-    grid-auto-rows: minmax(0px, 30vh);
+    grid-template-columns: repeat(3, minmax(0, 30vh));
+    grid-auto-rows: minmax(0,30vh);
     justify-content: center;
-    /* display: flex;
-    flex-wrap: wrap; */
     padding: .5rem;
 }
 
@@ -22,8 +20,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    /* height: 30vh;
-    width: 200px; */
 }
 
 #top-left {
